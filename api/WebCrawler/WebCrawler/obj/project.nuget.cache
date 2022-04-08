@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gLIZ0h3ngmgk4NIHAV6zu6CtovFpbne8MFl0nXEgfS47+DKfc73A6cPl5hMHHmpY4qOm+ZuyQrs8iO3UEl+TPA==",
+  "dgSpecHash": "iv+eGbd6Ol0zGQ86NnkbeAputu29qdfWGvTYcPyhf3ZZbKJbtOqYMoi4fh7t2ZqYITfCFVftiDDtDoBYukLr2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\ben.demystifier\\0.1.0\\ben.demystifier.0.1.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\dotnext\\1.2.9\\dotnext.1.2.9.nupkg.sha512",
@@ -25,6 +25,7 @@
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.net.http.headers\\2.0.2\\microsoft.net.http.headers.2.0.2.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.web.librarymanager.build\\2.1.113\\microsoft.web.librarymanager.build.2.1.113.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",

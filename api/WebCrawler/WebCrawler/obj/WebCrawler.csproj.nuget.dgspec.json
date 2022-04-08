@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {}
+    "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {
+    "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
         "projectName": "WebCrawler",
-        "projectPath": "C:\\Users\\asus\\Desktop\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\WebCrawler\\WebCrawler\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
             "DotVVM.HotReload.AspNetCore": {
               "target": "Package",
               "version": "[4.0.0-preview03-final, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
             },
             "Microsoft.Web.LibraryManager.Build": {
               "target": "Package",
