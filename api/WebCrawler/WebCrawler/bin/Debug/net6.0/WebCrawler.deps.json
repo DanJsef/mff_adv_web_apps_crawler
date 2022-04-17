@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
           "Microsoft.Web.LibraryManager.Build": "2.1.113",
-          "WebCrawler.DataAccessLayer": "1.0.0"
+          "WebCrawler.DataAccessLayer": "1.0.0",
+          "WebCrawller.BusinessLayer": "1.0.0"
         },
         "runtime": {
           "WebCrawler.dll": {}
@@ -1586,6 +1587,14 @@
         "runtime": {
           "WebCrawler.DataAccessLayer.dll": {}
         }
+      },
+      "WebCrawller.BusinessLayer/1.0.0": {
+        "dependencies": {
+          "WebCrawler.DataAccessLayer": "1.0.0"
+        },
+        "runtime": {
+          "WebCrawller.BusinessLayer.dll": {}
+        }
       }
     }
   },
@@ -2702,6 +2711,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
     "WebCrawler.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebCrawller.BusinessLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

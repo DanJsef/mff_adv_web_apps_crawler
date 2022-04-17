@@ -25,7 +25,7 @@
 
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebCrawler.BusinessLayer\WebCrawler.BusinessLayer.csproj" />
     <ProjectReference Include="..\WebCrawler.DataAccessLayer\WebCrawler.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\WebCrawller.BusinessLayer\WebCrawller.BusinessLayer.csproj" />
   </ItemGroup>
 </Project>

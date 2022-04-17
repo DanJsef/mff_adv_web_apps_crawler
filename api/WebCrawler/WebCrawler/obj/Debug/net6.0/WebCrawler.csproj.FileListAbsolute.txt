@@ -107,3 +107,5 @@ C:\Users\asus\Desktop\semestral work\mff_adv_web_apps_crawler\api\WebCrawler\Web
 C:\Users\asus\Desktop\semestral work\mff_adv_web_apps_crawler\api\WebCrawler\WebCrawler\bin\Debug\net6.0\WebCrawler.DataAccessLayer.dll
 C:\Users\asus\Desktop\semestral work\mff_adv_web_apps_crawler\api\WebCrawler\WebCrawler\bin\Debug\net6.0\WebCrawler.DataAccessLayer.pdb
 C:\Users\asus\Desktop\semestral work\mff_adv_web_apps_crawler\api\WebCrawler\WebCrawler\bin\Debug\net6.0\appsettings.json
+C:\Users\asus\Desktop\semestral work\mff_adv_web_apps_crawler\api\WebCrawler\WebCrawler\bin\Debug\net6.0\WebCrawller.BusinessLayer.dll
+C:\Users\asus\Desktop\semestral work\mff_adv_web_apps_crawler\api\WebCrawler\WebCrawler\bin\Debug\net6.0\WebCrawller.BusinessLayer.pdb

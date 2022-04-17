@@ -8,7 +8,7 @@ namespace WebCrawler.ViewModels
     {
         private readonly RecordsService recordsService;
 
-        public List<>
+        
     }
 }
 
