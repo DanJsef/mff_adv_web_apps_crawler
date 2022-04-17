@@ -1,6 +1,6 @@
 {
   "config": {
-    "applicationPhysicalPath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler",
+    "applicationPhysicalPath": "/app",
     "markup": {
       "controls": [
         {
@@ -22,9 +22,9 @@
       }
     },
     "routes": {
-      "Default": {
+      "Records": {
         "url": "",
-        "virtualPath": "Views/Default.dothtml",
+        "virtualPath": "Views/Records.dothtml",
         "defaultValues": {}
       },
       "_dotvvm_diagnostics_compilation": {
@@ -201,7 +201,7 @@
     },
     "security": {},
     "runtime": {},
-    "defaultCulture": "en-GB",
+    "defaultCulture": "",
     "experimentalFeatures": {},
     "debug": true,
     "diagnostics": {

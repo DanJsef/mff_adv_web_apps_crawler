@@ -6,6 +6,9 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using DotVVM.Framework.Hosting;
 using DotVVM.Framework.Routing;
+using Microsoft.EntityFrameworkCore;
+using WebCrawler.DataAccessLayer.Context;
+using WebCrawler.BusinessLayer.Services;
 
 namespace WebCrawler
 {
@@ -29,6 +32,11 @@ namespace WebCrawler
             services.AddAuthentication();
 
             services.AddDotVVM<DotvvmStartup>();
+
+            services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("MyConn")));
+
+            services.AddScoped<RecordsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

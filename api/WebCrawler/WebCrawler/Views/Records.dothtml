@@ -1,0 +1,9 @@
+﻿@viewModel WebCrawler.ViewModels.RecordsViewModel, WebCrawler
+@masterPage Views/MasterPage.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+    <p>adkfkhsoadjfhkskdljfhlaksjdfhlkasjdgfhlakwjdfhAUDFHPOouwdighfpoUWIEHFPOwidhfpOIADHFIAUODFHOAUIDH</p>
+    <p> ASDFASD</p>
+
+</dot:Content>
+

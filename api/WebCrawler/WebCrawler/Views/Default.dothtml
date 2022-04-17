@@ -1,5 +1,0 @@
-﻿@viewModel WebCrawler.ViewModels.DefaultViewModel, WebCrawler
-@masterPage Views/MasterPage.dotmaster
-<dot:Content ContentPlaceHolderID="MainContent">
-
-</dot:Content>

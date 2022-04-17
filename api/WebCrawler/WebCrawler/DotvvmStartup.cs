@@ -18,7 +18,7 @@ namespace WebCrawler
 
         private void ConfigureRoutes(DotvvmConfiguration config, string applicationPath)
         {
-            config.RouteTable.Add("Default", "", "Views/Default.dothtml");
+            config.RouteTable.Add("Records", "", "Views/Records.dothtml");
             config.RouteTable.AutoDiscoverRoutes(new DefaultRouteStrategy(config));    
         }
 
