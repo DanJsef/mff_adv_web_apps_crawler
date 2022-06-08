@@ -1,4 +1,4 @@
-﻿@viewModel WebCrawler.ViewModels.MasterPageViewModel, WebCrawler
+﻿@viewModel WebCrawler.Web.ViewModels.MasterPageViewModel, WebCrawler.Web
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">

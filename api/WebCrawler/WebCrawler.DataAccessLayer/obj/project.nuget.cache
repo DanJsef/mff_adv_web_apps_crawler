@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Bh1vPOBRX3+fIK+tkkOB6bmqXmhbmLCBP5q4nZfQX9+PybHTDMpSnJyB9l1BXoVyAjzNUqNbzETD6bRPS14ECg==",
+  "dgSpecHash": "bhJ52LSC7bIpgG5AlyI51SUpST9awPBxf8GsXUftqtd/D4WqW/Jo05zyd3q/Ze8wbmsWrNGPQKu+YEvWcj4yRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.DataAccessLayer\\WebCrawler.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.DataAccessLayer\\WebCrawler.DataAccessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

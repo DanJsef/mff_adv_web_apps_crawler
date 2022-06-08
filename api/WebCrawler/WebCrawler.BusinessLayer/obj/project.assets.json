@@ -611,6 +611,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AutoMapper": "11.0.1",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
         },
@@ -1819,11 +1820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.BusinessLayer\\WebCrawler.BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.BusinessLayer\\WebCrawler.BusinessLayer.csproj",
       "projectName": "WebCrawler.BusinessLayer",
-      "projectPath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.BusinessLayer\\WebCrawler.BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.BusinessLayer\\WebCrawler.BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1840,8 +1841,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.DataAccessLayer\\WebCrawler.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.DataAccessLayer\\WebCrawler.DataAccessLayer.csproj"
+            "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.DataAccessLayer\\WebCrawler.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler.DataAccessLayer\\WebCrawler.DataAccessLayer.csproj"
             }
           }
         }
@@ -1876,7 +1877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,8 +9,10 @@ using DotVVM.Framework.Routing;
 using Microsoft.EntityFrameworkCore;
 using WebCrawler.DataAccessLayer.Context;
 using WebCrawler.BusinessLayer.Services;
+using AutoMapper;
+using WebCrawler.BusinessLayer.Mappings;
 
-namespace WebCrawler
+namespace WebCrawler.Web
 {
     public class Startup
     {
@@ -37,6 +39,13 @@ namespace WebCrawler
             options.UseSqlServer(Configuration.GetConnectionString("MyConn")));
 
             services.AddScoped<RecordsService>();
+
+            var config = new MapperConfiguration(c =>
+            {
+                c.AddProfile<TagMapping>();
+                c.AddProfile<WebsiteRecordMapping>();
+            });
+            services.AddSingleton<IMapper>(s => config.CreateMapper());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,6 +77,10 @@ namespace WebCrawler
                 endpoints.MapDotvvmHotReload();
 
                 // register ASP.NET Core MVC and other endpoint routing middlewares
+            });
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(env.WebRootPath)
             });
         }
     }

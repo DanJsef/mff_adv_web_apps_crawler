@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "geJ2Psv/57w1PeyYGfA9a1saxJ1h7dBRxhlON44A4PTu9awrP1rfmZPXk1Qu1eJTB48GwTO9UXldlOGAo0uOvw==",
+  "dgSpecHash": "oqt++QQoQuUAmZ60OOH/OVgepzmP0N5VGDFl+pJad/650mLv6jzEmxu1DezV5/kB5L0c97SAaKl2sGg0hVVKCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\MFF UK\\webove aplikacie\\pokrocile\\semestral work\\mff_adv_web_apps_crawler\\api\\WebCrawler\\WebCrawler\\WebCrawler.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\ben.demystifier\\0.1.0\\ben.demystifier.0.1.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\dotnext\\1.2.9\\dotnext.1.2.9.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\dotnext.metaprogramming\\1.2.9\\dotnext.metaprogramming.1.2.9.nupkg.sha512",
@@ -16,7 +17,7 @@
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.codeanalysis.common\\2.8.0\\microsoft.codeanalysis.common.2.8.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.codeanalysis.csharp\\2.8.0\\microsoft.codeanalysis.csharp.2.8.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.0\\microsoft.dotnet.platformabstractions.2.0.0.nupkg.sha512",

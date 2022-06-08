@@ -1,8 +1,103 @@
-﻿@viewModel WebCrawler.ViewModels.RecordsViewModel, WebCrawler
+﻿@viewModel WebCrawler.Web.ViewModels.RecordsViewModel, WebCrawler.Web
 @masterPage Views/MasterPage.dotmaster
+@js MyModuleWithComponent
 
 <dot:Content ContentPlaceHolderID="MainContent">
-    
 
+    <js:ReactButton text="{value: "dfsdf"}"
+                    onClick={command: () => Sort()} />
+
+
+    <dot:Button Text="Sort options" />
+    <dot:Button Text="URL" />
+    <dot:Button Text="A-Z" />
+    <dot:Button Text="Z-A" />
+    <dot:Button Text="Last Crawling" />
+    <dot:Button Text="Newest" />
+    <dot:Button Text="Oldest" />
+    <dot:Button Click="{command: Sort()}" Text="Sort" />
+
+    <table>
+        <thead>
+            <tr>
+                <th>Periodicity</th>
+                <th>Label</th>
+                <th>Last Execution</th>
+                <th>Status of last Execution</th>
+                <th>Tags</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <dot:Repeater DataSource="{value: AllWebsiteRecords}" WrapperTagName="tbody">
+            <ItemTemplate>
+                <tr>
+                    <td>
+                        {{value: Periodicity}}
+                    </td>
+                    <td>
+                        {{value: Label}}
+                    </td>
+                    <td>
+                        {{value: LastExecution}}
+                    </td>
+                    <td>
+                        {{value: ExecutionStatus}}
+                    </td>
+                    <td>
+                        <dot:Repeater DataSource="{value: tagDTOs}" RenderWrapperTag="false">
+                            <ItemTemplate>
+                                <span> {{value: Content + " "}} </span>
+                            </ItemTemplate>
+                        </dot:Repeater>
+                    </td>
+                    <td>
+                        <dot:RouteLink RouteName="Record" Param-Id="{value: Id}">
+                            <dot:Button Text="View" />
+                        </dot:RouteLink>
+                    </td>
+                    <td>
+
+                        <dot:RouteLink RouteName="RecordEdit" Param-Id="{value: Id}">
+                            <dot:Button Text="Edit" />
+                        </dot:RouteLink>
+                    </td>
+                    <td>
+                        <dot:Button Click="{command: _parent.DeleteRecord(_this)}" Text="Remove" />
+                    </td>
+                </tr>
+            </ItemTemplate>
+        </dot:Repeater>
+    </table>
+
+    <dot:Button Click="{command: AddRecord()}" Text="Add a record" />
+    <div>
+        <h4>Minutes</h4>
+        <dot:TextBox Text="{value: newRecord.Minutes}" />
+        <h4>Hours</h4>
+        <dot:TextBox Text="{value: newRecord.Hours}" />
+        <h4>Days</h4>
+        <dot:TextBox Text="{value: newRecord.Days}" />
+        <h4>URL</h4>
+        <dot:TextBox Text="{value: newRecord.URL}" />
+        <h4>Label</h4>
+        <dot:TextBox Text="{value: newRecord.Label}" />
+        <h4>RegExp</h4>
+        <dot:TextBox Text="{value: newRecord.RegExp}" />
+        <h4>Active</h4>
+        <dot:CheckBox Text="Active" Checked="{value: newRecord.Active}" />
+        <h4>Tags</h4>
+        <dot:Repeater DataSource="{value: tagDTOs}" RenderWrapperTag="false">
+            <ItemTemplate>
+                <span> {{value: Content + " "}} </span>
+                <span> <dot:Button Click="{command: _parent.CancelTag(_this)}" Text="X" /> </span>
+            </ItemTemplate>
+        </dot:Repeater>
+        <h4>New Tag</h4>
+        <dot:TextBox Text="{value: newTag.Content}" />
+        <dot:Button Click="{command: SaveNewTag()}" Text="Add a tag" />
+        <dot:Button Click="{command: SaveNewRecord()}" Text="Add a record" />
+    </div>
 </dot:Content>
 

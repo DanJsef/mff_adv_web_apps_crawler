@@ -3,7 +3,7 @@ using DotVVM.Framework.ResourceManagement;
 using DotVVM.Framework.Routing;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WebCrawler
+namespace WebCrawler.Web
 {
     public class DotvvmStartup : IDotvvmStartup, IDotvvmServiceConfigurator
     {
@@ -19,7 +19,9 @@ namespace WebCrawler
         private void ConfigureRoutes(DotvvmConfiguration config, string applicationPath)
         {
             config.RouteTable.Add("Records", "", "Views/Records.dothtml");
-            config.RouteTable.AutoDiscoverRoutes(new DefaultRouteStrategy(config));    
+            config.RouteTable.Add("Record", "Record/{Id:int}", "Views/RecordDetail.dothtml");
+            config.RouteTable.Add("RecordEdit", "RecordEdit/{Id:int}", "Views/RecordEdit.dothtml");
+            config.RouteTable.AutoDiscoverRoutes(new DefaultRouteStrategy(config));
         }
 
         private void ConfigureControls(DotvvmConfiguration config, string applicationPath)
@@ -30,6 +32,7 @@ namespace WebCrawler
         private void ConfigureResources(DotvvmConfiguration config, string applicationPath)
         {
             // register custom resources and adjust paths to the built-in resources
+            config.Resources.Register("MyModuleWithComponent", new ScriptModuleResource(new UrlResourceLocation("~/build/react-app.js")));
             config.Resources.Register("bootstrap-css", new StylesheetResource
             {
                 Location = new UrlResourceLocation("~/lib/bootstrap/css/bootstrap.min.css")

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DotVVM.Framework.ViewModel;
 
-namespace WebCrawler.ViewModels
+namespace WebCrawler.Web.ViewModels
 {
     public class MasterPageViewModel : DotvvmViewModelBase
     {

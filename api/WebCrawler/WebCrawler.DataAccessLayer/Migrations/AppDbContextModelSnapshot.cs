@@ -55,15 +55,25 @@ namespace WebCrawler.DataAccessLayer.Migrations
                     b.Property<bool>("Active")
                         .HasColumnType("bit");
 
+                    b.Property<int?>("Days")
+                        .HasColumnType("int");
+
+                    b.Property<bool?>("ExecutionStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("Hours")
+                        .HasColumnType("int");
+
                     b.Property<string>("Label")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Periodicity")
+                    b.Property<DateTime?>("LastExecution")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("Minutes")
+                        .HasColumnType("int");
+
                     b.Property<string>("RegExp")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("URL")
@@ -78,12 +88,17 @@ namespace WebCrawler.DataAccessLayer.Migrations
             modelBuilder.Entity("WebCrawler.DataAccessLayer.Models.Tag", b =>
                 {
                     b.HasOne("WebCrawler.DataAccessLayer.Models.WebsiteRecord", "WebsiteRecord")
-                        .WithMany()
+                        .WithMany("Tags")
                         .HasForeignKey("WebsiteRecordId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("WebsiteRecord");
+                });
+
+            modelBuilder.Entity("WebCrawler.DataAccessLayer.Models.WebsiteRecord", b =>
+                {
+                    b.Navigation("Tags");
                 });
 #pragma warning restore 612, 618
         }

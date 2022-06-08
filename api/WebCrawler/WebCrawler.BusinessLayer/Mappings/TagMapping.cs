@@ -7,7 +7,11 @@ namespace WebCrawler.BusinessLayer.Mappings
     {
         public TagMapping()
         {
-            
+            CreateMap<Tag, TagDTO>()
+                .ForMember(d => d.Id, a => a.MapFrom(s => s.Id))
+                .ForMember(d => d.Content, a => a.MapFrom(s => s.Content))
+                .ForMember(d => d.WebsiteRecordId, a => a.MapFrom(s => s.WebsiteRecordId))
+                .ReverseMap();
         }
     }
 }
